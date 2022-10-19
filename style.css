@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(to right, rgb(109, 161, 229),rgb(180, 238, 207));
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    background: #fff;
+    margin: 50px;
+    box-shadow: 0 50px 75px rgba(0, 0, 0, 0);
+    border-left: 50px solid rgb(126, 219, 221);
+    border-right: 50px solidrgb(126, 219, 221);
+    background: linear-gradient(to right, rgb(126, 219, 221),rgb(21, 106, 216));
+}
+
+.container .top{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+    padding-bottom: 0%;
+}
+
+.container .top .imgBx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.container .top .imgBx .Box{
+    position: relative;
+    width: 65%;
+    min-width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.container .top .imgBx .Box .img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.profileText{
+    position: relative;
+    padding: 90px;
+    display: flex;
+    align-items: center;
+}
+.profileText h3{
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #333;
+}
+.profileText h3 span{
+    position: relative;
+    font-size: 0.5em;
+    font-weight: 300;
+    top: -10px;
+}
+
+.contactBox{
+    position: relative;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 40px 40px;
+}
+.contactBox h3{
+    border-left: 4px solid rgb(171, 22, 47);
+    padding-left: 10px;
+    line-height: len;
+    font-weight: 600;
+    color:#333;
+    letter-spacing: 0.1en;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+.container .contactBox ul{
+    position: relative;
+    margin: 10px 0;
+}
+.container .contactBox ul li{
+    list-style: none;
+    margin: 25px 0;
+    line-height: len;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+}
+.language li{
+    flex-direction: column;
+}
+.language li span{
+    color: rgb(226, 49, 49);
+    font-weight: 500;
+    font-size: 16px;
+}
+.language .persent{
+    position: relative;
+    width: 100%;
+    background: #e3e3e3;
+    height: 6px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: block;
+    overflow: hidden;
+}
+.language .persent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: aqua;
+}
+.contactBox h2{
+    border-right: 4px solid pink;
+    padding-right: 10px;
+    line-height: len;
+    font-weight: 600;
+    color:#333;
+    letter-spacing: 0.1en;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+.container .contactBox p{
+    position: relative;
+    margin: 10px 0;
+}
+
+.container .d1{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+    padding-bottom: 0%;
+}
+.container .d1 .c1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    width: 65%;
+    min-width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.container .d2{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+    padding-bottom: 0%;
+}
+.container .d2 .c2{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    width: 65%;
+    min-width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.container .d3{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+    padding-bottom: 0%;
+}
+.container .d3 .c3{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    width: 65%;
+    min-width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.container .d4{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding: 20px;
+    padding-bottom: 0%;
+}
+.container .d4 .c4{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 65%;
+    min-width: 100px;
+    overflow: hidden;
+}
+.container .d4 .c4 .d5{
+    position: relative;
+    display: grid;
+  grid-template-columns: 1fr;
+    padding: 20px;
+    padding-bottom: 0%;
+}
+.container .d4 .c4 .d5 .c5{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    width: 65%;
+    min-width: 200px;
+    overflow: hidden;
+}
+
